@@ -18,7 +18,7 @@ const __dirname = dirname(__filename);
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || '*',
+    origin: '*',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
   })
