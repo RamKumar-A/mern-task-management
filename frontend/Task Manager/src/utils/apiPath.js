@@ -1,4 +1,5 @@
-export const BASE_URL = 'http://localhost:8000';
+// export const BASE_URL = 'http://localhost:8000';
+export const BASE_URL = 'https://mern-task-management-api-nkdt.onrender.com/';
 
 // utils/apiPath.js
 
